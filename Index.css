@@ -1,0 +1,156 @@
+body {
+    width: 1280px;
+    height: 832px;
+    margin: auto;
+    overflow: hidden;
+}
+html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top right,rgba(4, 0, 6, 1) 10%,#4a0a41 90%);
+ }
+  .NavBar {
+  width: 1080px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .menu ul {
+    display: flex;
+    list-style: none;
+    padding-left: 250px;
+
+  }
+  
+  .menu li {
+    margin: 0 30px;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  .hero-text {
+    margin-top: 70px;
+    margin-left: 100px;
+    gap: 51px;
+    max-width: 516px;
+    padding: 20px;
+    color: white;
+}
+
+.welcome {
+color:#ff6f61;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.textas {
+    font-size: 52px;
+    margin: 10px 0;
+
+}
+
+.hero-text .highlight {
+    color: #ff6f61;
+   
+}
+
+.description {
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.btn-primary {
+    background-color:#fe4d50;
+    color: white;
+    padding: 16px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.SuniukoPaveiksliukas {
+position: relative;
+padding: 10px;
+}
+
+.background{ 
+  position: absolute;
+  top: -600px;
+  left: 400px;
+}
+
+.Suniuks{
+  position: absolute;
+  top: -282px;
+  right: 100px;
+}
+
+.dog1{
+  position: absolute;
+  top: -450px;
+  right: 460px;
+}
+
+.dog2{
+  position: absolute;
+  top: -260px;
+  right: 545px;
+}
+
+.dog3{
+  position: absolute;
+  top: -400px;
+  right: 220px;
+}
+
+.dog4{
+  position: absolute;
+  top: -300px;
+  right: 100px;
+}
+
+.dog5{
+  position: absolute;
+  top: 60px;
+  right: 590px;
+}
